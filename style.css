@@ -43,3 +43,8 @@ h2 {
     padding: 30px 5%;
     margin: 0;
 }
+
+.card-img-top {
+    height: 400px;
+    object-fit: cover;
+}
