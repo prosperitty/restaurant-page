@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
+    <script src="main.js" defer></script>
     <title>Meals</title>
 </head>
 
 <body>
   <header class="position-relative">
-    <nav class="navbar navbar-expand-lg sticky-top navbar-light fw-light">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark fw-light">
       <div class="container-fluid">
         <a class="navbar-brand fs-3" href="#">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-egg-fried" viewBox="0 0 16 16">
@@ -27,13 +27,13 @@
         <div class="collapse navbar-collapse fs-5" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active tabs" id="home-tab" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Menu</a>
+              <a class="nav-link active tabs" id="menu-tab" href="#">Menu</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Contact</a>
+              <a class="nav-link active tabs" id="contact-tab" href="#">Contact</a>
             </li>
           </ul>
         </div>
@@ -51,11 +51,11 @@
   </header>
 
   <main>
-    <h2>Our Services</h2>
     <div id="content" class="container">
+      <!-- <h2>Our Services</h2>
       <div class="row">
         <div class="col-sm align-self-center text-center">
-          <h3 class="fw-bold">catering</h3>
+          <h3>catering</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt cupiditate excepturi distinctio asperiores quibusdam dolores fuga repellendus incidunt eligendi accusantium aspernatur modi, aut cumque alias assumenda? Blanditiis ex voluptatibus eligendi!</p>
         </div>
         <div class="col-sm align-self-center">
@@ -64,18 +64,18 @@
       </div>
 
       <div class="row">
-        <div class="col-sm align-self-center">
-          <img class="img-fluid" src="../images/brooke-lark-kXQ3J7_2fpc-unsplash.jpg" alt="">
-        </div>
-        <div class="col-sm align-self-center text-center">
-          <h3 class="fw-bold">organic</h3>
+        <div class="col-sm align-self-center text-center order-sm-2">
+          <h3>organic</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt cupiditate excepturi distinctio asperiores quibusdam dolores fuga repellendus incidunt eligendi accusantium aspernatur modi, aut cumque alias assumenda? Blanditiis ex voluptatibus eligendi!</p>
+        </div>
+        <div class="col-sm align-self-center order-sm-1">
+          <img class="img-fluid" src="../images/brooke-lark-kXQ3J7_2fpc-unsplash.jpg" alt="">
         </div>
       </div>
 
       <div class="row">
         <div class="col-sm align-self-center text-center">
-          <h3 class="fw-bold">delicous</h3>
+          <h3>delicous</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt cupiditate excepturi distinctio asperiores quibusdam dolores fuga repellendus incidunt eligendi accusantium aspernatur modi, aut cumque alias assumenda? Blanditiis ex voluptatibus eligendi!</p>
         </div>
         <div class="col-sm align-self-center">
@@ -83,7 +83,6 @@
         </div>
       </div>
     </div>
-
     <div id="menu">
       <div id="content" class="container">
         <h3 class="fw-bold">breakfast</h3>
@@ -209,7 +208,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </main>
 </body>
