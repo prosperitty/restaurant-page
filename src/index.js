@@ -8,7 +8,7 @@ const tabs = document.querySelectorAll('.tabs');
 
 initialPageLoad();
 
-tabs.forEach((e) => {
+tabs.forEach(e => {
     e.addEventListener('click', () => {
         removeContent();
         if(e === tabs[1]) {
