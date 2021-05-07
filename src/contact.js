@@ -61,10 +61,10 @@ Telephone.prototype = Object.create(Contact.prototype);
 Email.prototype = Object.create(Contact.prototype);
 
 function loadContact() {
-    const locate = new Location('555 lorem ipsum street','new york, NY','10452','location','/images/geo-alt-fill.svg')
-    const telephone = new Telephone('(555)-555-5555','telephone','/images/telephone-fill.svg');
-    const time = new Time('monday - friday','7:00AM - 7:00PM','saturday - sunday','8:00AM - 9:00PM','time','/images/clock-fill.svg');
-    const email = new Email('lorem1ipsum@gmail.com','email','/images/envelope-fill.svg');
+    const locate = new Location('555 lorem ipsum street','new york, NY','10452','location','images/geo-alt-fill.svg')
+    const telephone = new Telephone('(555)-555-5555','telephone','images/telephone-fill.svg');
+    const time = new Time('monday - friday','7:00AM - 7:00PM','saturday - sunday','8:00AM - 9:00PM','time','images/clock-fill.svg');
+    const email = new Email('lorem1ipsum@gmail.com','email','images/envelope-fill.svg');
 
     const contactRow = document.createElement('div');
     contactRow.className = 'row contact';

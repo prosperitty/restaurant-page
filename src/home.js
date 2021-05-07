@@ -44,9 +44,9 @@ Row.prototype.addToArr = function() {
 }
 
 function initialPageLoad() {
-    const cateringRow = new Row('catering','Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt cupiditate excepturi distinctio asperiores quibusdam dolores fuga repellendus incidunt eligendi accusantium aspernatur modi, aut cumque alias assumenda? Blanditiis ex voluptatibus eligendi!','../images/lily-banse--YHSwy6uqvk-unsplash.jpg');
-    const organicRow = new Row('organic','Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt cupiditate excepturi distinctio asperiores quibusdam dolores fuga repellendus incidunt eligendi accusantium aspernatur modi, aut cumque alias assumenda? Blanditiis ex voluptatibus eligendi!', '../images/brooke-lark-kXQ3J7_2fpc-unsplash.jpg');
-    const delicousRow = new Row('delicous','Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt cupiditate excepturi distinctio asperiores quibusdam dolores fuga repellendus incidunt eligendi accusantium aspernatur modi, aut cumque alias assumenda? Blanditiis ex voluptatibus eligendi!','../images/anna-pelzer-IGfIGP5ONV0-unsplash.jpg');
+    const cateringRow = new Row('catering','Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt cupiditate excepturi distinctio asperiores quibusdam dolores fuga repellendus incidunt eligendi accusantium aspernatur modi, aut cumque alias assumenda? Blanditiis ex voluptatibus eligendi!','images/lily-banse--YHSwy6uqvk-unsplash.jpg');
+    const organicRow = new Row('organic','Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt cupiditate excepturi distinctio asperiores quibusdam dolores fuga repellendus incidunt eligendi accusantium aspernatur modi, aut cumque alias assumenda? Blanditiis ex voluptatibus eligendi!', 'images/brooke-lark-kXQ3J7_2fpc-unsplash.jpg');
+    const delicousRow = new Row('delicous','Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt cupiditate excepturi distinctio asperiores quibusdam dolores fuga repellendus incidunt eligendi accusantium aspernatur modi, aut cumque alias assumenda? Blanditiis ex voluptatibus eligendi!','images/anna-pelzer-IGfIGP5ONV0-unsplash.jpg');
 
     const heading = document.createElement('h2');
     heading.innerText = 'our services';

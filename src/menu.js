@@ -60,18 +60,18 @@ function loadMenu() {
     const dinner = new Menu('dinner');
     const dessert = new Menu('dessert');
     
-    const pancakes = new Food('Pancakes','freshly made pancakes with fruit,butter, and syrup','/images/yulia-khlebnikova-pancakes-unsplash.jpg');
-    const waffles = new Food('Waffles','baked waffles with butter and fruit of your chocie','/images/arifuddin-rahmad-waffles-unsplash.jpg');
-    const frenchToast = new Food('French toast','warm french toast with fruits, syrup, and some flour','/images/joseph-gonzalez-french-toast-unsplash.jpg');
-    const cheeseburger = new Food('Cheeseburger','grilled burger with lettuce, onion, tomatoe, cheese, pickle, and ketchup','/images/ilya-mashkov-burger-unsplash.jpg');
-    const salad = new Food('Salad','mixed salad with croutons, cherry tomatoe, and diced radishes', '/images/sina-piryae-salad-unsplash.jpg');
-    const sandwich = new Food('Sandwich','sandwich filled with your choice of protein, lettuce, mayonaise, and tomatoe','/images/mae-mu-sandwich-unsplash.jpg');
-    const steak = new Food('Steak','freshly grilled steak cooked to your liking','/images/chad-montano-steak-unsplash.jpg');
-    const ribs = new Food('Ribs','grilled ribs with barbeque','/images/alexandru-bogdan-ghita-ribs-unsplash.jpg');
-    const pasta = new Food('Pasta','boiled pasta with your choice of topping','/images/bruna-branco-pasta-unsplash.jpg');
-    const iceCream = new Food('Ice cream','vanilla,chocolate, or strawberry ice cream on a cone','/images/mathilde-pee-icecream-unsplash.jpg');
-    const cheeseCake = new Food('Cheese cake','cheesecake topped with fudge and strawberries','/images/alireza-etemadi-cheesecake-unsplash.jpg');
-    const cake = new Food('Cake', 'sweet delicous cake with frosting', '/images/american-heritage-chocolate-cake-unsplash.jpg');
+    const pancakes = new Food('Pancakes','freshly made pancakes with fruit,butter, and syrup','images/yulia-khlebnikova-pancakes-unsplash.jpg');
+    const waffles = new Food('Waffles','baked waffles with butter and fruit of your chocie','images/arifuddin-rahmad-waffles-unsplash.jpg');
+    const frenchToast = new Food('French toast','warm french toast with fruits, syrup, and some flour','images/joseph-gonzalez-french-toast-unsplash.jpg');
+    const cheeseburger = new Food('Cheeseburger','grilled burger with lettuce, onion, tomatoe, cheese, pickle, and ketchup','images/ilya-mashkov-burger-unsplash.jpg');
+    const salad = new Food('Salad','mixed salad with croutons, cherry tomatoe, and diced radishes', 'images/sina-piryae-salad-unsplash.jpg');
+    const sandwich = new Food('Sandwich','sandwich filled with your choice of protein, lettuce, mayonaise, and tomatoe','images/mae-mu-sandwich-unsplash.jpg');
+    const steak = new Food('Steak','freshly grilled steak cooked to your liking','images/chad-montano-steak-unsplash.jpg');
+    const ribs = new Food('Ribs','grilled ribs with barbeque','images/alexandru-bogdan-ghita-ribs-unsplash.jpg');
+    const pasta = new Food('Pasta','boiled pasta with your choice of topping','images/bruna-branco-pasta-unsplash.jpg');
+    const iceCream = new Food('Ice cream','vanilla,chocolate, or strawberry ice cream on a cone','images/mathilde-pee-icecream-unsplash.jpg');
+    const cheeseCake = new Food('Cheese cake','cheesecake topped with fudge and strawberries','images/alireza-etemadi-cheesecake-unsplash.jpg');
+    const cake = new Food('Cake', 'sweet delicous cake with frosting', 'images/american-heritage-chocolate-cake-unsplash.jpg');
 
     const heading = document.createElement('h2');
     heading.innerText = 'menu';
