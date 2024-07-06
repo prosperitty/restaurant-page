@@ -19,4 +19,4 @@ This project contains a tab switching feature that changes the pages contents wh
 
 [The Odin Project](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/restaurant-page)
 
-[Live Demo](https://alex-lvl.github.io/restaurant-page/)
+[Live Demo](https://prosperitty.github.io/restaurant-page/)
